@@ -46,22 +46,22 @@ And use its users, item, and items methods to access data from Zootool:
     });
 
 More Examples
+-------------
 
 If you learn by example, this should show you pretty much everything you need to know to start using this gem:
 
-
-// Example queries
-var info = zoo.users.info({username: 'reaktivo'}, callback);
-var friends = zoo.users.friends({username: 'reaktivo'}, callback);
-var followers = zoo.users.followers({username: 'reaktivo'}, callback);
-var inspiration_items = zoo.users.items({username: 'reaktivo', tag: 'inspiration'});
-var inspiration_items = zoo.users.items.all({tag: 'inspiration'}, callback);
-var paged_items = zoo.users.items({limit: 10, offset: 20}, callback);
-var popular_today = zoo.items.popular.today(callback);
-
-// Using the returned data
-var first_title = popular_today[0]['title']
-var first_thumb = popular_today[0]['thumbnail']
+    // Example queries
+    var info = zoo.users.info({username: 'reaktivo'}, callback);
+    var friends = zoo.users.friends({username: 'reaktivo'}, callback);
+    var followers = zoo.users.followers({username: 'reaktivo'}, callback);
+    var inspiration_items = zoo.users.items({username: 'reaktivo', tag: 'inspiration'});
+    var inspiration_items = zoo.users.items.all({tag: 'inspiration'}, callback);
+    var paged_items = zoo.users.items({limit: 10, offset: 20}, callback);
+    var popular_today = zoo.items.popular.today(callback);
+    
+    // Using the returned data
+    var first_title = popular_today[0]['title']
+    var first_thumb = popular_today[0]['thumbnail']
 
 Features
 --------
