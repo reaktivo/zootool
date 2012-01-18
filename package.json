@@ -5,7 +5,8 @@
   "tags": ["zootool", "api"],
   "version": "0.1.0",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "git@github.com:reaktivo/node-zootool.git"
   },
   "engines": {
     "node": "~0.6.2"
