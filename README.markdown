@@ -16,9 +16,11 @@ Usage
 -----
 
 Using this node module is simple. You simply create a Zootool object:
+    
     var Zootool = require('zootool')
 
 You'll access everything through a Zootool object
+    
     var zoo = new Zootool('your_api_key_here')
 
 And use its users, item, and items methods to access data from Zootool:
