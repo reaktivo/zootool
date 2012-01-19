@@ -45,6 +45,18 @@ And use its users, item, and items methods to access data from Zootool:
       // do something with items array
     });
 
+Testing
+-------
+
+Tests use vows, be sure to install it globally using
+
+    npm install vows -g
+    
+To run tests call
+
+    API_KEY=YOUR_API_KEY npm test
+    
+
 More Examples
 -------------
 
