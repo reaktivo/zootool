@@ -48,11 +48,11 @@ And use its users, item, and items methods to access data from Zootool:
 Testing
 -------
 
-Tests use vows, be sure to install it globally using
+Tests use vows, coffee script and cake. To install all developer dependencies run:
 
-    npm install vows -g
+    npm install --dev
     
-To run tests call
+To run tests:
 
     API_KEY=YOUR_API_KEY npm test
     
