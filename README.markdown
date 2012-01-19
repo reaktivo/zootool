@@ -1,7 +1,7 @@
 Node Zootool API wrapper
 ========================
 
-Provides a javascript wrapper around the Zootool API zootool.com/api. Inspired by github.com/ryanmauer/zootool
+Provides a javascript wrapper around the [Zootool API](http://zootool.com/api). Inspired by [ryanmauer's Zootool ruby wrapper](https://github.com/ryanmauer/zootool)
 
 Zootool is about collecting, organizing and sharing your favorite images, videos, documents and links from all over the internet. This node module gives you a simple and easy way to access everything Zootool from your javascript projects.
 
@@ -79,8 +79,8 @@ Planned Features
  - Authentication to allow access to private items
  - Saving items to Zootool
 
-Contributing to node-zootool
-----------------------------
+Contributing to zootool
+-----------------------
 
  - Check out the latest master to make sure the feature hasn’t been implemented or the bug hasn’t been fixed yet
  - Check out the issue tracker to make sure someone already hasn’t requested it and/or contributed it
