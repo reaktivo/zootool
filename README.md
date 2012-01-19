@@ -1,5 +1,7 @@
-Node Zootool API wrapper
+Node Zootool API wrapper 
 ========================
+
+[![Build Status](https://secure.travis-ci.org/reaktivo/zootool.png)](http://travis-ci.org/reaktivo/zootool)
 
 Provides a javascript wrapper around the [Zootool API](http://zootool.com/api). Inspired by [ryanmauer's Zootool ruby wrapper](https://github.com/ryanmauer/zootool)
 
