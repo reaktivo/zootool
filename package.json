@@ -2,8 +2,11 @@
   "author": "Marcel Miranda <m@reaktivo.com> (reaktivo.com)",
   "name": "zootool",
   "description": "Zootool API",
-  "tags": ["zootool", "api"],
-  "version": "0.1.0",
+  "tags": [
+    "zootool",
+    "api"
+  ],
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git@github.com:reaktivo/node-zootool.git"
@@ -18,8 +21,8 @@
     "vows": "~0.6.1",
     "coffee-script": "~1.2.0"
   },
-  "scripts": { 
+  "scripts": {
     "pretest": "cake build",
-    "test": "vows --spec" 
+    "test": "vows --spec"
   }
 }
