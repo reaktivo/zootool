@@ -23,6 +23,7 @@
   },
   "scripts": {
     "pretest": "cake build",
+    "prepublish": "cake build",
     "test": "vows --spec"
   }
 }
