@@ -1,3 +1,4 @@
 language: node_js
 node_js:
   - 0.6
+env: API_KEY=5917ad9af494ae53670f5fb3c5b29af4
